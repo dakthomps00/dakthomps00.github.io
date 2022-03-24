@@ -1,9 +1,9 @@
 body {
-    background-image: url("me-mobile.JPG");
+    background-image: url("me-pc.JPG");
 }
 
- @media all and (min-width: 500px) {
+ @media all and (max-width: 500px) {
     body {
-        background-image: ("me-pc.JPG");
+        background-image: url("me-mobile.JPG");
     }
  }
