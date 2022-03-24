@@ -1,0 +1,9 @@
+body {
+    background-image: "me-mobile.JPG";
+}
+
+ @media all and (min-width: 500px) {
+    body {
+        background-image: "me-pc.JPG";
+    }
+ }
